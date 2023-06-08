@@ -4,8 +4,8 @@ NEU教学质量监控与评估中心教学质量评价一键全优脚本
 ``` javascript
 (async function() {
   for (let i = 2; i <= 11; i++) {
-    let k = document.getElementById("evlTable").rows[i].cells[3];
-    var button = k.querySelector('input[type="radio"]:first-child');
+    let c = document.getElementById("evlTable").rows[i].cells[3];
+    var button = c.querySelector('input[type="radio"]:first-child');
     button.click();
   }
 
