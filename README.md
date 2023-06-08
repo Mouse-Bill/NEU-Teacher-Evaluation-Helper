@@ -1,5 +1,5 @@
 # NEU-Teacher-Evaluation-Helper
-NEU教学质量监控与评估中心教学质量评价一键全优脚本
+NEU教学质量监控与评估中心教学质量评价一键全优脚本  
 在教评页面将如下代码复制到浏览器开发工具的控制台中，回车执行即可：
 ``` javascript
 (async function() {
