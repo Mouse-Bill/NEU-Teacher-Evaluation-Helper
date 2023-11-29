@@ -4,7 +4,12 @@ NEU教学质量监控与评估中心教学质量评价一键全优脚本
 ``` javascript
 (async function() {
   for (let i = 2; i <= 11; i++) {
-    let c = document.getElementById("evlTable").rows[i].cells[3];
+    let c = null;
+    if (i == 6){
+      c = document.getElementById("evlTable").rows[i].cells[4];
+    } else {
+      c = document.getElementById("evlTable").rows[i].cells[3];
+    }
     var button = c.querySelector('input[type="radio"]:first-child');
     button.click();
   }
